@@ -34,7 +34,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 x-enrichment-note: 'Website pointer hireart.com resolves to HireArt (an unrelated
   workforce-management platform), not EDN — a bad VC-portfolio domain match. The most
   likely real EDN is EDN Co.,Ltd (edn.com.vn), a Vietnamese diversified holding group
@@ -51,6 +51,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.hireart.com/blog
+  type: Blog
+- url: https://www.hireart.com/blog/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://hireart.com
 x-enrichment:
