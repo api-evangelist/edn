@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: hireart.com
   final_host: www.hireart.com
-  ownership: inherited
+  ownership: own
   owner: edn
   shares_host_with: null
-  inherited_from: www.hireart.com
+  inherited_from: null
+  alias_of: www.hireart.com
   verdict: scored
-  score: null
+  score: 3
+  band: 3
+  band_label: light
   host_score: 3
-  density: null
+  density: 3.1
   words: 967
   tiers:
     agentic: 0
